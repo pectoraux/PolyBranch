@@ -54,6 +54,11 @@ function getProcessingSketchId () { return 'polybranch'; }
 	</head>
 	<body>
 		<div id="content">
+			<form action="">
+				<label for="tokenId">Token ID: </label>
+				<input type="text" id="tokenId" name="tokenId">
+				<input type="submit" value="save">
+			</form>
 			<div id="game-wrapper">
 				<canvas id="polybranch" data-processing-sources="polybranch.pjs" 
 						width="800" height="800">

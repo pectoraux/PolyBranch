@@ -884,6 +884,10 @@ class Game{
   public void gameOver(){
     if(!isGameOver){
       jsGameOver(score);
+    	console.log("=========================");
+      console.log(score);
+      console.log("=========================");
+
       isGameOver = true;
       background(0,0,255);
       for(int i = 0; i < layers.size(); i++){
